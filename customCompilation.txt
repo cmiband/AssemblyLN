@@ -1,0 +1,9 @@
+1. nasm -o procedure.obj -f obj procedure.asm
+2. bcc32 file.c procedure.obj
+
+jeżeli nie działa ---->
+
+1. gcc -> folder bin
+2. tam rób rzeczy
+3. nasm -o procedure.o -f coff procedure.asm
+4. gcc -m32 -o program addInterface.c procedure.o
