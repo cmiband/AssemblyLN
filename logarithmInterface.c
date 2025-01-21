@@ -37,7 +37,6 @@ int getTargetNumber() {
 
 	integerResult = 0;
 	dotIndex = 0;
-	firstNegativeFlag = 0;
 	for(i = 0; i<50; i++) {
 		if(firstNumOfChoice[i] == '.') {
 			dotIndex = i;
